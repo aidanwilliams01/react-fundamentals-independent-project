@@ -1,10 +1,13 @@
 import React from 'react';
+import ReusableForm from './ReusableForm';
 
 class CoffeeControl extends React.Component {
 
   render(){
     return (
-      <React.Fragment></React.Fragment>
+      <React.Fragment>
+        <ReusableForm></ReusableForm>
+      </React.Fragment>
     );
     
   }
