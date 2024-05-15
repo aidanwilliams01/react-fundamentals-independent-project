@@ -18,7 +18,7 @@ function ReusableForm(props) {
         <label>Price: </label>
         <input
           type='number'
-          name='quantity'
+          name='price'
           min=".01"
           step=".01" />
         <br></br>

@@ -7,13 +7,10 @@ function Coffee(props){
     <React.Fragment>
       <div onClick = {() => props.whenCoffeeClicked(props.id)}>
         <h3>{props.name}</h3>
-        <p><em>{props.origin}</em></p>
-        <p><em>{props.price}</em></p>
-        <p><em>{props.roast}</em></p>
-        {/* {props.quantity > 0 &&
-          <p>In stock: {props.quantity}</p>
-        } */}
-        {props.quantity == 0 &&
+        <p>Origin: {props.origin}</p>
+        <p>Price: ${props.price}</p>
+        <p>Roast: {props.roast}</p>
+        {props.quantity === '0' &&
           <p><strong>Out of Stock</strong></p>
         }
       </div>
