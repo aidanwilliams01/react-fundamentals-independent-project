@@ -1,6 +1,6 @@
-# (Application Name)
+# Coffee Shop
 
-#### (Brief Description of Application)
+#### An inventory tracker for a coffee shop.
 
 #### By Aidan Williams
 
@@ -18,6 +18,8 @@
 
 ## Description
 
+A website where users can list coffees offered at a shop. Includes functionality to add, edit, delete, and sell a type of coffee.
+
 ## Setup/Installation Requirements
 
 * _Clone this repository to your desktop._
@@ -31,10 +33,11 @@
   * _To lint Javascript files, run `$ npm run lint`._
   * _To view code testing with Jest, run `$ npm run test`._
 
+![component diagram](coffee-shop.png)
+
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs._
 
 ## License
 

@@ -16,7 +16,7 @@ function CoffeeDetail(props){
       <p>Price: ${coffee.price}</p>
       <p>Roast: {coffee.roast}</p>
       {coffee.quantity > 0 &&
-        <p>In stock: {coffee.quantity}</p>
+        <p>In stock: {coffee.quantity} pounds</p>
       }
       {coffee.quantity === 0 &&
         <p><strong>Out of Stock</strong></p>
